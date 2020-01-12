@@ -28,7 +28,6 @@ from mpl_toolkits.mplot3d import Axes3D
 # 
 # Spend some time looking at `x`, `y`, and `z`, does each fall within a range?
 
-# In[15]:
 
 
 # Orion
@@ -38,8 +37,6 @@ z = [2.06, 0.84, 1.56, 2.07, 2.36, 1.72, 0.66, 1.25,1.38]
 
 
 # ## 3. Create a 2D Visualization
-# 
-
 
 
 fig=plt.figure()
@@ -53,8 +50,6 @@ plt.savefig("Orion Constellation.png")
 
 
 # ## 4. Create a 3D Visualization
-# 
-
 
 fig_3d=plt.figure()
 fig_3d.add_subplot(1,1,1,projection="3d")
